@@ -7,7 +7,6 @@ public:
             // mp[nums[i]]++;
             res = nums[i]^res;
         }
-        
         return res;
     }
 };
